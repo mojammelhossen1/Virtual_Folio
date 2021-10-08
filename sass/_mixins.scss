@@ -1,0 +1,33 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin BoxShadow {
+    box-shadow: 0 4px 30px rgb(140 152 164 / 20%)
+}
+
+@mixin hovBoxShadow {
+    box-shadow: 0 4px 30px rgb(140 152 164 / 40%);
+}
+
+@mixin orange-text-shadow {
+    text-shadow: 0 2px 4px rgb(23 25 37 / 40%);
+}
+
+@mixin BfAfContent {
+    content: '';
+    position: absolute;
+    display: block;
+}
+
+@mixin title {
+    font-size: 14px;
+    font-weight: 700;
+    color: $orange-darken;
+    background-color: $orange-text-bg;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
