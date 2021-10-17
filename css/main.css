@@ -11295,4 +11295,105 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 2px #ffffff, 0 3px 9px rgba(0, 0, 0, 0.3);
 }
 
+.client-say {
+  margin-bottom: 100px;
+}
+.client-say h2, .client-say .h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.client-say .carousel-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-say .carousel-center .carousel {
+  width: 800px;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .imageBlocker {
+  max-width: 350px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212529;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail .profile {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail .profile img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail .profile .txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail .profile .txt .name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #212529;
+}
+.client-say .carousel-center .carousel .carousel-inner .carousel-item .detail .profile .txt .title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+.client-say .carousel-center .carousel-indicators {
+  bottom: -33px;
+}
+.client-say .carousel-center .carousel-indicators li {
+  margin-top: 20px;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #dadada;
+  cursor: pointer;
+}
+.client-say .carousel-center .carousel-indicators .active {
+  background-color: #3c94f8 !important;
+}
+
+.icon {
+  background-color: #171925;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 100px;
+}
+.icon .row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.icon .row div img {
+  width: 100px;
+  height: auto;
+  filter: grayscale(100%) brightness(2);
+  transition: filter, transform 0.3s ease;
+  cursor: pointer;
+}
+.icon .row div img:hover {
+  transform: scale(1.3);
+  filter: none;
+}
+
 /*# sourceMappingURL=main.css.map */
