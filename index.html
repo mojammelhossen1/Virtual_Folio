@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- oncontextmenu="return false" -->
 
 <head>
     <meta charset="UTF-8">
@@ -28,7 +29,7 @@
 
     <div class="background-smoke">
         <div class="background-smoke-item-wrapper">
-            <div class="navbar fixed-top">
+            <div class="navbar fixed-top d-none d-md-flex">
                 <div class="container">
                     <div class="navbar-brand">
                         <a href="#">V-Folio</a>
@@ -63,7 +64,7 @@
 
 
     <!-- profile start here  -->
-    <div class="container profile my-7">
+    <div class="container profile d-none d-sm-flex my-7">
         <div class="row px-5">
             <div class=" col-lg-4 col-md-12">
                 <div class="profile-card">
@@ -517,9 +518,94 @@
     </div>
     <!-- icon-section start end -->
 
+    <!-- blog section start here  -->
+    <div class="container blog">
+        <h6>
+            <span>Blog</span>
+        </h6>
+        <h1>Latest Post</h1>
 
+        <div class="card-sec row">
+            <div class="col-md-6 col-lg-4 padding">
+                <div class="card-wrapper">
+                    <div class="image">
+                        <img src="./img/work/work-9.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3><a href="#">Technology</a></h3>
+                        <p><a href="#">Invision design forward fund</a></p>
+                        <span>May 22, 2045</span>
+                    </div>
 
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 padding">
+                <div class="card-wrapper">
+                    <div class="image">
+                        <img src="./img/work/work-6.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3><a href="#">Business</a></h3>
+                        <p><a href="#">Announcing a plan for small teams</a></p>
+                        <span>May 22, 2045</span>
+                    </div>
 
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 padding">
+                <div class="card-wrapper">
+                    <div class="image">
+                        <img src="./img/work/work-1.jpg" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3><a href="#">Design</a></h3>
+                        <p><a href="#">5 basic tips for illustrating</a></p>
+                        <span>May 22, 2045</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="see-more">
+            <span>See All Post</span>
+        </div>
+
+    </div>
+    <!-- blog section start end  -->
+
+    <!-- contact section start here  -->
+    <div class="contact">
+        <h6>
+            <span>Contact</span>
+        </h6>
+        <h1>Get in touch</h1>
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="google-maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29089.70974936429!2d90.2760903!3d24.3041793!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1634448312231!5m2!1sen!2sbd"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="form-wrapper">
+                    <div class="form">
+                        <input type="text" placeholder="Your Name" class="name">
+                        <div class="multicol">
+                            <input type="email" placeholder="Email Address" class="email">
+                            <input type="text" placeholder="Subject" class="subject">
+                        </div>
+                        <textarea rows="6" type="text" placeholder="Enter message here.." class="message"></textarea>
+                        <span class="btn">Send Message</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- contact section start end  -->
 
 
     <!-- Javascript with bundle js -->

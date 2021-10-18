@@ -31,3 +31,15 @@
     padding: 10px 30px;
     border-radius: 40px;
 }
+
+@mixin button {
+    cursor: pointer;
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: $orange-darken;
+    padding: 12px 25px;
+    border-radius: 7px;
+    box-shadow: 0 0 0 2px $white,
+        0 3px 9px rgb(0 0 0 / 30%);
+}
