@@ -31,9 +31,26 @@
     width: 0px;
 }
 
+::selection {
+    background-color: transparent;
+}
+
+::moz-selection {
+    background-color: transparent;
+}
+
+::webkit-selection {
+    background-color: transparent;
+}
+
 
 
 body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     .ti-arrow-up {
         position: fixed;
         bottom: 20px;
